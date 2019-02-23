@@ -1,0 +1,61 @@
+*{
+  border:0;
+  margin:0;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900');
+
+.image {
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  border: 2px rgb(78, 65, 224) solid;
+  border-radius: 5px;
+  padding: 2px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  height:30vh;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: rgb(166, 152, 205);
+}
+
+.jumbotron {
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(78, 65, 224, 0.5);
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-inverse {
+  background-color: rgb(78, 65, 224);
+  border:0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.navwid {
+  width: 90vw;
+}
+
+.margin {
+  margin-top: 10vh;
+  font-size: 100px;
+  width: 90vw;
+}
+
+.fix {
+  vertical-align: top;
+  margin-right: 3vw;
+}
